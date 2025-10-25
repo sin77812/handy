@@ -6,7 +6,7 @@ export default function PhilosophySection() {
       <div className="mx-auto max-w-container">
         <div className="flex flex-col items-center gap-lg tablet:flex-row tablet:gap-xl">
           {/* 텍스트 영역 */}
-          <div className="flex-1">
+          <div className="flex-1 flex flex-col justify-center tablet:text-left text-center">
             <div className="relative">
               <div className="text-6xl text-primary/20">&ldquo;</div>
               <blockquote className="mt-[-40px] pl-md text-quote italic text-neutral-text">
