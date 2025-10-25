@@ -8,10 +8,10 @@ export default function HeroSection() {
           {/* 프로필 사진 */}
           <div className="relative h-[300px] w-[300px] overflow-hidden rounded-full tablet:h-[400px] tablet:w-[400px]">
             <Image
-              src="/profile-1.jpg"
+              src="/profile.jpeg"
               alt="송도 핸디 프로필 사진"
               fill
-              className="object-cover rotate-90"
+              className="object-cover"
               priority
             />
           </div>
@@ -19,14 +19,16 @@ export default function HeroSection() {
           {/* 텍스트 컨텐츠 */}
           <div className="flex-1 text-center tablet:text-left">
             <h1 className="mb-md text-h1-mobile tablet:text-h1-desktop">
+              송도핸디
+              <br />
+              합리적인 비용으로 모든 일을
+            </h1>
+            <p className="mb-lg text-lg text-neutral-text-light">
               전문가가 필요 없는 일에,
               <br />
               전문가 비용을 내지 마세요
-            </h1>
-            <p className="mb-lg text-lg text-neutral-text-light">
-              25세 청년의 정직한 손길
               <br />
-              제조업부터 카페까지, 다양한 경험으로 대부분의 문제 해결
+              모든 의뢰는 제가 직접 해결합니다!
             </p>
             
             {/* CTA 버튼 */}

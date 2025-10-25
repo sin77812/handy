@@ -22,7 +22,7 @@ export default function TrustSection() {
     <section className="bg-neutral-bg px-md py-xl tablet:py-2xl">
       <div className="mx-auto max-w-container">
         <h2 className="mb-lg text-center text-h2-mobile tablet:text-h2-desktop">
-          왜 저를 믿어도 될까요?
+          전문가도 아닌데 믿을 수 있을까?
         </h2>
         
         <div className="grid grid-cols-1 gap-md tablet:grid-cols-2 desktop:gap-lg">

@@ -14,7 +14,7 @@ export default function PhilosophySection() {
                 <br />
                 전문가가 필요하지 않습니다.
                 <br /><br />
-                저는 그것을 알고,
+                저는 그것을 알고있고,
                 <br />
                 해결할 수 있습니다.
                 <br /><br />
@@ -39,10 +39,10 @@ export default function PhilosophySection() {
           {/* 두 번째 프로필 사진 */}
           <div className="relative h-[300px] w-[300px] overflow-hidden rounded-2xl tablet:h-[400px] tablet:w-[400px]">
             <Image
-              src="/profile-2.jpg"
+              src="/second.png"
               alt="송도 핸디 작업 모습"
               fill
-              className="object-cover rotate-90"
+              className="object-cover"
             />
           </div>
         </div>

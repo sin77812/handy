@@ -16,7 +16,7 @@ export default function Home() {
         <TrustSection />
         <PhilosophySection />
         <ServicesSection />
-        <ExperienceSection />
+        {/* <ExperienceSection /> */}
         <ProcessSection />
         <FAQSection />
         <FinalCTASection />

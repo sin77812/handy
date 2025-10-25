@@ -33,7 +33,7 @@ export default function ServicesSection() {
         { name: '변기/싱크 막힘', price: '25,000원' },
         { name: '수도꼭지 수리', price: '15,000원' },
         { name: '문/서랍 고장', price: '20,000원' },
-        { name: '간단한 배관', price: '30,000원' }
+        { name: '배관 교체/점검', price: '20,000원' }
       ]
     },
     regular: {
@@ -49,7 +49,7 @@ export default function ServicesSection() {
       title: '기타 서비스',
       services: [
         { name: '심부름/장보기', price: '15,000원' },
-        { name: '세차', price: '20,000원' },
+        { name: '세차', price: '30,000원' },
         { name: '짐 옮기기', price: '문의' },
         { name: '반려동물 산책', price: '15,000원' },
         { name: '기타 잡일', price: '10,000원~' }
@@ -67,7 +67,7 @@ export default function ServicesSection() {
         {/* TOP 3 서비스 */}
         <div className="mb-xl">
           <h3 className="mb-md text-center text-h3-mobile tablet:text-h3-desktop">
-            TOP 3 서비스
+            가장 의뢰 많은 서비스
           </h3>
           <div className="flex gap-md overflow-x-auto pb-md">
             {topServices.map((service, index) => (
@@ -126,15 +126,16 @@ export default function ServicesSection() {
         {/* 불가능한 작업 */}
         <div className="rounded-2xl border-2 border-error/20 bg-error/5 p-md">
           <h3 className="mb-sm text-h3-mobile font-semibold text-error">
-            이런 일은 안 됩니다
+            이런 일들은 정중하게 거절하고 있습니다.
           </h3>
           <ul className="space-y-xs text-neutral-text">
             <li>• 전기 공사 (위험)</li>
             <li>• 고압 배관 (자격 필요)</li>
             <li>• 가스 관련 (법적 제한)</li>
+            <li>• 등등</li>
           </ul>
           <p className="mt-sm text-small text-neutral-text-light">
-            정직하게 알려드립니다
+            전문 자격이 필요한 일은, 실제 전문가가 해야하는 고위험군
           </p>
         </div>
       </div>
